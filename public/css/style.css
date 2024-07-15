@@ -17,3 +17,11 @@ body {
 .leaflet-control-attribution{
     display: none;
 }
+.header-text{
+    text-align: center;
+    margin: 2;
+    color: darkgrey;
+}
+.welcome {
+    display: none;
+}

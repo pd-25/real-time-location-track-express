@@ -42,3 +42,13 @@ socket.on("user-disconnected", (id) => {
     delete markers[id];
   }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  const welcomeElement = document.querySelector('.welcome');
+  if (welcomeElement) {
+      welcomeElement.style.display = 'block';
+      setTimeout(() => {
+          welcomeElement.style.display = 'none';
+      }, 3000); // 5000 milliseconds = 5 seconds
+  }
+});
