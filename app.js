@@ -20,7 +20,7 @@ io.on("connection", function (socket) {
   });
   console.log("backend connected");
 });
-app.get("/", function (req, res) {
+app.get("/location", function (req, res) {
   res.render("index");
 });
 
